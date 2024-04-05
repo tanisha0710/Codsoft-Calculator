@@ -1,0 +1,32 @@
+*{
+  background-color:aliceblue;
+}
+
+
+#calculator {
+  border: 6px solid black;
+  border-radius: 6px;
+  width: 200px;
+}
+  
+  #display {
+  margin: 10px;
+  width: 85%; 
+  font-size: 20px;
+  border: 2px solid#222;
+  background-color: white;
+  }
+  
+  .button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  }
+  
+  .button {
+  width: 45px; 
+  height: 45px;
+  margin: 3px;
+  background-color:white;
+  }
